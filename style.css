@@ -1,0 +1,161 @@
+body {
+  background-image: url("img/AdobeStock_628658577_Preview-transformed.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #f5f5f5;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  gap: 20px;
+}
+#fi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #f5f5f5;
+  padding: 6px 12px;
+}
+#search {
+  background-color: #0000;
+  border: none;
+  color: #f5f5f5;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#search:focus {
+  outline: none;
+  box-shadow: none;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#icon {
+  height: 50px;
+  min-width: 50px;
+  background-image: url("img/icons8-search-48.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  flex: 2 1;
+  flex-direction: row;
+  gap: 200px;
+}
+.city {
+  font-size: 7rem;
+  font-weight: bold;
+}
+.date,
+.time {
+  font-size: x-large;
+}
+.num {
+  display: flex;
+  align-items: center;
+  font-size: xxx-large;
+}
+
+.temp {
+  display: flex;
+}
+.info2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud,
+.humud,
+.wind,
+.rain {
+  display: flex;
+  gap: 20px;
+}
+.ico img {
+  width: 100px;
+  height: 100px;
+  margin-left: -20px;
+}
+.icoc img {
+  width: 70px;
+  height: 70px;
+  margin-left: -10px;
+}
+
+.icoh {
+  background-image: url("img/icons8-humidity-48.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}
+.icow {
+  background-image: url("img/icons8-wind-48.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}
+.icor {
+  background-image: url("img/icons8-rain-64.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}
+.clou,
+.win,
+.humu,
+.rai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.valc,
+.vali,
+.valw,
+.valr {
+  font-size: large;
+}
+#h1 {
+  text-align: center;
+}
+.week {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+}
+.day1,
+.day2,
+.day3,
+.day4,
+.day5,
+.day6,
+.day7 {
+  flex-grow: 1;
+}
+.day1Name,
+.day2Name,
+.day3Name,
+.day4Name,
+.day5Name,
+.day6Name,
+.day7Name {
+  font-size: xx-large;
+}
+.day1max,
+.day2max,
+.day3max,
+.day4max,
+.day5max,
+.day6max,
+.day7max {
+  font-size: x-large;
+}
