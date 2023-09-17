@@ -1,3 +1,7 @@
+html,
+body {
+  height: 100%;
+}
 body {
   background-image: url("img/AdobeStock_628658577_Preview-transformed.jpeg");
   background-repeat: no-repeat;
@@ -5,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #f5f5f5;
+  margin-top: 0px;
 }
 #main {
   display: flex;
