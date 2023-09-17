@@ -14,7 +14,6 @@ body {
 #main {
   display: flex;
   flex-direction: column;
-  padding: 36px;
   gap: 20px;
 }
 #fi {
